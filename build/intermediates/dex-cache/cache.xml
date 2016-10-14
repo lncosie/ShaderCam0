@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/guazi/coding/ShaderCam0/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c34f43f284740d180ce52d0aebca1a85b9faf33f">
+        <dex dex="/home/guazi/coding/ShaderCam0/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6765e45c9f469bc31ac3f862c0aabf0b75d42de1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/guazi/coding/ShaderCam0/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9e9ac17289e5c18b1ba71d3f92365bc9297add74">
+        <dex dex="/home/guazi/coding/ShaderCam0/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f41c9719eb181f617dcab0db03d0a687e69edbbe/classes.dex" />
+    </item>
+
+</items>

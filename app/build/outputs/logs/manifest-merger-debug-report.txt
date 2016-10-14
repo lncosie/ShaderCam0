@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:3:5-55
+		INJECTED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:10:2-61
+	android:name
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:10:19-59
+uses-feature#android.hardware.camera
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:12:5-84
+	android:required
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:12:58-82
+	android:name
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:12:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:13:5-94
+	android:required
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:13:68-92
+	android:name
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:13:19-67
+uses-feature#android.hardware.camera.front
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:14:5-90
+	android:required
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:14:64-88
+	android:name
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:14:19-63
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:15:5-100
+	android:required
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:15:74-98
+	android:name
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:15:19-73
+application
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:17:5-44:19
+	android:label
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:19:9-45
+	android:theme
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:21:9-67
+activity#android.app.NativeActivity
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:32:9-43:20
+	android:label
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:33:13-48
+	android:launchMode
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:35:13-44
+	android:configChanges
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:36:13-63
+	android:theme
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:34:13-71
+	android:name
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:32:19-60
+meta-data#android.app.lib_name
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:37:13-38:55
+	android:value
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:38:17-52
+	android:name
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:37:24-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:39:13-42:29
+action#android.intent.action.MAIN
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from /home/guazi/coding/ShaderCam0/app/src/main/AndroidManifest.xml:41:27-74

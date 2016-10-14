@@ -1,0 +1,70 @@
+{
+  "buildFiles": [
+    "/home/guazi/coding/ShaderCam0/app/src/main/jni/Android.mk",
+    "/home/guazi/coding/ShaderCam0/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/home/guazi/android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/guazi/coding/ShaderCam0/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/guazi/coding/ShaderCam0/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/home/guazi/coding/ShaderCam0/app/.externalNativeBuild/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/guazi/coding/ShaderCam0/app/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "Simple_VertexShader-debug-armeabi-v7a": {
+      "buildCommand": "/home/guazi/android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/guazi/coding/ShaderCam0/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/guazi/coding/ShaderCam0/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/home/guazi/coding/ShaderCam0/app/.externalNativeBuild/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/guazi/coding/ShaderCam0/app/build/intermediates/ndkBuild/debug/lib /home/guazi/coding/ShaderCam0/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libSimple_VertexShader.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "Simple_VertexShader",
+      "files": [
+        {
+          "src": "/home/guazi/android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+          "flags": "\"-gcc-toolchain\" \"/home/guazi/android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I/home/guazi/android/sdk/ndk-bundle/sources/android/native_app_glue\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/guazi/android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/guazi/coding/ShaderCam0/app/src/main/jni/Simple_VertexShader.c",
+          "flags": "\"-gcc-toolchain\" \"/home/guazi/android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I../../\" \"-I../..//Common/Include\" \"-I/home/guazi/android/sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/guazi/coding/ShaderCam0/app/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/guazi/android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/guazi/coding/ShaderCam0/app/src/main/jni/esShader.c",
+          "flags": "\"-gcc-toolchain\" \"/home/guazi/android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I../../\" \"-I../..//Common/Include\" \"-I/home/guazi/android/sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/guazi/coding/ShaderCam0/app/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/guazi/android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/guazi/coding/ShaderCam0/app/src/main/jni/esShapes.c",
+          "flags": "\"-gcc-toolchain\" \"/home/guazi/android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I../../\" \"-I../..//Common/Include\" \"-I/home/guazi/android/sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/guazi/coding/ShaderCam0/app/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/guazi/android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/guazi/coding/ShaderCam0/app/src/main/jni/esTransform.c",
+          "flags": "\"-gcc-toolchain\" \"/home/guazi/android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I../../\" \"-I../..//Common/Include\" \"-I/home/guazi/android/sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/guazi/coding/ShaderCam0/app/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/guazi/android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/guazi/coding/ShaderCam0/app/src/main/jni/esUtil.c",
+          "flags": "\"-gcc-toolchain\" \"/home/guazi/android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I../../\" \"-I../..//Common/Include\" \"-I/home/guazi/android/sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/guazi/coding/ShaderCam0/app/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/guazi/android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/guazi/coding/ShaderCam0/app/src/main/jni/esUtil_Android.c",
+          "flags": "\"-gcc-toolchain\" \"/home/guazi/android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I../../\" \"-I../..//Common/Include\" \"-I/home/guazi/android/sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/guazi/coding/ShaderCam0/app/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/guazi/android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        }
+      ],
+      "output": "/home/guazi/coding/ShaderCam0/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libSimple_VertexShader.so"
+    },
+    "android_native_app_glue-debug-armeabi-v7a": {
+      "buildCommand": "/home/guazi/android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/guazi/coding/ShaderCam0/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/guazi/coding/ShaderCam0/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/home/guazi/coding/ShaderCam0/app/.externalNativeBuild/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/guazi/coding/ShaderCam0/app/build/intermediates/ndkBuild/debug/lib /home/guazi/coding/ShaderCam0/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libandroid_native_app_glue.a",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "android_native_app_glue",
+      "files": [
+        {
+          "src": "/home/guazi/android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+          "flags": "\"-gcc-toolchain\" \"/home/guazi/android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I/home/guazi/android/sdk/ndk-bundle/sources/android/native_app_glue\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/guazi/android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include\""
+        }
+      ],
+      "output": "/home/guazi/coding/ShaderCam0/app/.externalNativeBuild/ndkBuild/debug/obj/local/armeabi-v7a/libandroid_native_app_glue.a"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "/home/guazi/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

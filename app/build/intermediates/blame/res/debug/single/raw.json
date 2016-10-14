@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/guazi/coding/ShaderCam0/app/build/intermediates/res/merged/debug/raw/vshader",
+        "source": "/home/guazi/coding/ShaderCam0/app/src/main/res/raw/vshader"
+    },
+    {
+        "merged": "/home/guazi/coding/ShaderCam0/app/build/intermediates/res/merged/debug/raw/fshader",
+        "source": "/home/guazi/coding/ShaderCam0/app/src/main/res/raw/fshader"
+    }
+]
